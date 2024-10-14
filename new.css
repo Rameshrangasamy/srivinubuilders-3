@@ -1,0 +1,43 @@
+.ecomerce-logo {
+    height: 56px;
+    width: 163px;
+}
+
+#navitem1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "roboto";
+    color: black;
+}
+
+#navitem2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "roboto";
+    color: black;
+}
+
+#navitem3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "roboto";
+    color: black;
+}
+
+#navitem4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "roboto";
+    color: black;
+}
+
+#navitem5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "roboto";
+    color: black;
+}
+
+.banner-images {
+    height: 100vh;
+}

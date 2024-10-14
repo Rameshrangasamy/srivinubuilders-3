@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vinu.css">
+    <style>      
+      .navbar-nav .nav-link {
+        color: #918880; 
+        text-decoration: none;
+      }   
+      .navbar-nav .nav-link.active {
+        color:#e2380d !important;
+      }
+      
+      .carousel-item {
+        text-align: center;
+    }
+    .review-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    .review-text {
+        font-size: 16px;
+        font-style: italic;
+        color: #918880;
+        font-weight: bold;
+        text-align: center;
+    }
+    .review-name {
+        font-weight: bold;
+        margin-top: 15px;
+        color:#e2380d;
+    }
+    .review-position {
+        color: #e2380d;
+    }
+    </style>    
+</head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fdfeff; border-color:#918880; border-width:1.5px;border-style:solid; height:fit-content;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+          <img src="images\IMG-20240930-WA0001.jpg" class="ecommerce-logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#" id="navItem1">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#wcuSection" id="navItem2">About</a>
+            <a class="nav-link" href="#exploreMenuSection" id="navItem3">Projects</a>
+            <a class="nav-link" href="#followUsSection" id="navItem4">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div>     
+        <div id="carouselExampleIndicators" class="carousel slide ecommerce-carousel-container" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="carousel-item active responsive-image">
+                  <img src="images\novila-misastra-unsplash.jpg" class="d-block w-100 responsive-image" alt="...">
+              </div>
+              <div class="carousel-item responsive-image">
+                  <img src="images\randy-unsplash.jpg" class="d-block w-100 responsive-image" alt="...">
+              </div>
+              <div class="carousel-item responsive-image">
+                  <img src="images\scott-webb-unsplash.jpg" class="d-block w-100 responsive-image" alt="...">
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel ExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+        </div> 
+                      
+        <div class="wcu-section pt-5 pb-5" id="wcuSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="wcu-section-heading mb-4">WHY CHOOSE US</h1>
+                <p class="wcu-section-description mb-4">
+                  At <span class="offers">Sri Vinu Builders,</span> we understand that building your dream home or commercial space is a significant investment. That's why we focus on delivering quality, reliability, and transparency in every project.
+                </p>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 14.59.40 - A team of experienced architects, engineers, and builders standing together at a construction site with blueprints and safety helmets. In the backgrou.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Experienced Team</h1>
+                  <p class="wcu-card-description">
+                    With over 15 years of experience, our skilled team of architects, engineers, and builders has successfully completed hundreds of residential and commercial projects. We bring industry knowledge and craftsmanship to every project, no matter the size.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.08.41 - A close-up view of high-quality construction materials on a building site. Display a variety of materials such as premium bricks, wooden beams, steel .webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">High-Quality Materials</h1>
+                  <p class="wcu-card-description">
+                    We source only the finest materials, ensuring that your building stands the test of time. Our partnerships with leading suppliers allow us to maintain a high standard of quality while keeping your project cost-efficient.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.10.56 -.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Tailored Solutions</h1>
+                  <p class="wcu-card-description">
+                    Every client has unique needs, which is why we offer customized solutions for each project. From initial design to completion, we work closely with you to ensure that your vision becomes a reality, whether it’s a luxury home or a modern office space.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.25.50 -.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">On-Time, On-Budget Delivery</h1>
+                  <p class="wcu-card-description">
+                    We understand the importance of sticking to deadlines and budgets. Our project management approach ensures that we deliver on time and within the agreed-upon cost, without compromising quality or cutting corners.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.22.23 -.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Sustainability Focus</h1>
+                  <p class="wcu-card-description">
+                    We are committed to building with the future in mind. Our expertise in sustainable construction practices means we can help you create an eco-friendly building that reduces environmental impact, enhances energy efficiency.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="wcu-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="wcu-card-image"
+                  />
+                  <h1 class="wcu-card-title mt-3">Comprehensive Services</h1>
+                  <p class="wcu-card-description">
+                    From site planning and architectural design to construction management and post-construction support, we offer a complete range of services to handle every aspect of your project, single point of contact entire process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-line" />
+        
+        <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <h1 class="menu-section-heading">PROJECTS</h1>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow menu-item-card p-3 mb-3">
+                  <img
+                    src="images\DALL·E 2024-10-06 15.20.08 - An image representing comprehensive services in a construction project. The scene includes various aspects such as architectural plans, a construction.webp"
+                    class="menu-item-image w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="hr-line" /> 
+
+        <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <h1 class="menu-section-heading">REVIEWS</h1>
+              </div>
+              <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+            
+                    <div class="carousel-item active p-3">
+                        <div class="container">
+                            <img src="images\review -1.png" class="review-img" alt="Reviewer 1">
+                            <h5 class="review-name">sneha gokul</h5>
+                            <p class="review-text">"The Best Engineer, one could love to have, who never compromise on quality and the best outcome. A good way of approaching the customers, with an open talk on what could be done and not. Best thing is brings our dream to a next level that we could admire forever. Blueprint drawings and estimation is done well and is affordable too.
+                              I suggest SRI VINU BUILDERS, with no second thought, to everyone for a dream come true moment. Customer satisfaction is their motto is what I felt."</p>                      
+                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                              </ul>
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item p-3">
+                        <div class="container">
+                            <img src="images\review - 2.png" class="review-img" alt="Reviewer 2">
+                            <h5 class="review-name">ashwin muthusamy</h5>
+                            <p class="review-text">"I am extremely impressed with the building design and would highly recommend it to others. It was a truly well-thought-out and beautifully designed.
+                              It seems modern, sustainable, and functional, with a strong attention to detail and a focus on the needs and comfort for us. Best wishes to the team!!!!"</p>
+                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                                <li><i class="fas fa-star fa-sm"></i></li>
+                              </ul>
+                            
+                        </div>
+                    </div>
+            
+                    <div class="carousel-item p-3">
+                        <div class="container">
+                            <img src="images\review - 3.png" class="review-img" alt="Reviewer 3">
+                            <h5 class="review-name">Nithya Gowtham</h5>
+                            <p class="review-text">"We were blown away by their professionalism and their innovative ideas as SRI VINU BUILDERS constructed our dream home. We are extremely grateful to the engineer who provided us many suggestions and helped us take our house to the next level.Never compromise on their quality, as I can assure to it. BEST BUILDER IN AND AROUND.."</p>
+                            <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                              <li><i class="fas fa-star fa-sm"></i></li>
+                              <li><i class="fas fa-star fa-sm"></i></li>
+                              <li><i class="fas fa-star fa-sm"></i></li>
+                              <li><i class="fas fa-star fa-sm"></i></li>
+                              <li><i class="fas fa-star fa-sm"></i></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+      
+                    <div class="carousel-item p-3">
+                      <div class="container">
+                          <img src="images\review - 4.png" class="review-img" alt="Reviewer 3">
+                          <h5 class="review-name">Balaji N</h5>
+                          <p class="review-text">"This is a reputed concern and their approach is really good . They handle the clients in as cool manner.
+                            The drawing and construction work are done good ."</p>
+                          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="far fa-star fa-sm"></i></li>
+                          </ul>
+                          
+                      </div>
+                    </div>
+      
+                    <div class="carousel-item p-3">
+                      <div class="container">
+                          <img src="images\review - 5.png" class="review-img" alt="Reviewer 3">
+                          <h5 class="review-name">Amaresh Rathinasamy</h5>
+                          <p class="review-text p-2">"All the works are done by their concern was excellent ... Er Vineeth is most friendly and also well experienced guy.....The way he handle the works we can relax and be free .....most trustable builders..."</p>
+                          <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="fas fa-star fa-sm"></i></li>
+                            <li><i class="far fa-star fa-sm"></i></li>
+                          </ul>
+                          
+                      </div>
+                    </div>
+            
+                </div>
+            
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next" >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only" >Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+             
+
+        <hr class="hr-line" />
+
+        <div class="footer-section pt-5 pb-5" id="followUsSection">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                  <h1 class="follow-us-section-heading mb-3">Contact Us</h1>
+                  <div class="card-container">                    
+                      <div class="form-container">
+                          <form id="subscribeForm">
+                              <div>
+                                  <label  class ="review-name" for="name">Name</label>
+                                  <input type="text" class="form-control" style="border-color: #959ead; border-width: 2px;" id="name" />
+                                  <p id="nameErrMsg" class="errorMessage"></p>
+                              </div>
+                              <div>
+                                  <label class ="review-name" for="email">Email</label>
+                                  <input type="text" class="form-control"  style="border-color: #959ead; border-width: 2px;" id="email" />
+                                  <p id="emailErrMsg" class="errorMessage"></p>
+                              </div>
+                              <div>
+                                <label class ="review-name" for="email">Phone Number</label>
+                                <input type="text" class="form-control"  style="border-color: #959ead; border-width: 2px;" id="email" />
+                                <p id="emailErrMsg" class="errorMessage"></p>
+                            </div>
+                              <button type="submit" class="btn btn-dark button">Submit</button>
+                          </form>
+                      </div>
+                  </div>                 
+                  <h1 class="follow-us-section-heading mb-3 mt-5">Follow Us</h1>
+                  <div class="d-flex flex-row justify-content-center mt-3 mb-3">
+                      <a href="https://web.whatsapp.com/" target="_blank">
+                        <div class="ecommerce-footer-section-icon-container">
+                          <i class="fab fa-whatsapp icon"></i>
+                        </div>
+                      </a>  
+                      <a href="https://www.facebook.com/login/" target="_blank">
+                        <div class="ecommerce-footer-section-icon-container">
+                          <i class="fab fa-facebook icon"></i>
+                        </div>
+                      </a>
+                      <a href="https://www.instagram.com/srivinubuilders/?hl=en" target="_blank">
+                        <div class="ecommerce-footer-section-icon-container">
+                          <i class="fab fa-instagram icon"></i>
+                        </div>
+                      </a>
+                      <a href="https://x.com/" target="_blank">
+                        <div class="ecommerce-footer-section-icon-container">
+                          <i class="fab fa-x-twitter icon"></i>
+                        </div>
+                      </a>
+                  </div>                   
+                </div>
+                <div class="col-12 col-lg-8">
+                  <div class="map-container">
+                    <h1 class="follow-us-section-heading mb-3">Our Location</h1>
+                    <!-- Google Map Embed -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.3731976687495!2d77.10387547317708!3d11.23393315059214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8fca8e034c493%3A0xdb0fbfc78258bf4e!2sSRI%20VINU%20BUILDERS!5e0!3m2!1sen!2sin!4v1728901107733!5m2!1sen!2sin" width="100%" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                </div>                
+              
+            </div>
+            
+          </div>
+        </div>
+        <hr class="hr-line" />
+
+        <div class="diwali-Footer-section pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div>
+                  <h1 class="footer-heading">Sri Vinu Builders</h1>                  
+                  <p class="footer-section-address">
+                  74/5, AMS Complex, <br/>
+                  SBI(Opp), 1st Floor, Sathy Road, <br/>
+                  Annur - 641 653. Coimbatore. <br/>
+                  Ph: 98422-73736
+                  </p>
+                  <h5 class="footer-section-mail-id">srivinubuilders@gmail.com</h5>  
+                </div>                           
+              </div>
+            </div>             
+          </div>      
+                
+              
+  
+  
+              
+              
+          </div>
+        </div>
+        <hr class="hr-line" />
+
+        <div class="text-center">
+          <i class="fa fa-copyright icon" style="font-size: 15px;"></i><span class="ecommerce-footer-section-copyright"> 2024. All rights reserved.</span>
+        </div>
+      </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+          // JavaScript to change the active link color
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+              // Remove active class from all links
+              document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+        
+              // Add active class to the clicked link
+              this.classList.add('active');
+            });
+          });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>  
+    </body>
+</html>

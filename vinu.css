@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@font-face {
+  font-family: 'Neuropol';
+  src: url('neuropol/Neuropol.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neuropol_x';
+  src: url('neuropol_x/neuropol x rg.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neuropolitical';
+  src: url('neuropolitical/neuropolitical rg.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.ecommerce-logo {
+    width: 260px;
+    height:60px;
+}
+#navItem1 {    
+    font-family: 'Neuropol', sans-serif;
+    font-weight: 600;
+    font-size: 13px;    
+    
+  }
+#navItem2 {    
+    font-family: 'Neuropol', sans-serif;
+    font-weight: 600;
+    font-size: 13px;    
+   
+  }
+#navItem3 {    
+    font-family: 'Neuropol', sans-serif;
+    font-weight: 600;
+    font-size: 13px;  
+    
+  }
+#navItem4 {    
+    font-family: 'Neuropol', sans-serif;
+    font-weight: 600;
+    font-size: 13px;    
+  }
+
+.ecommerce-carousel-container {
+    height: 100vh;  /* Full screen height */
+    width: 100%;    /* Full screen width */
+    overflow: hidden;
+}
+
+/* Ensure the image fits all screen sizes */
+.responsive-image {
+    width: 100%;     /* Full width */
+    height: 100vh;   /* Full height of the viewport */
+    object-fit: cover;  /* Ensure the image covers the entire container without distortion */
+}
+
+/* Small devices (mobile phones) */
+@media only screen and (max-width: 768px) {
+    .responsive-image {
+        width: 100%;  /* Full width */
+        height: 100vh; /* Full height of the viewport */
+        object-fit: cover;  /* Maintain aspect ratio and cover */
+    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (max-width: 992px) {
+    .responsive-image {
+        width: 100%;  /* Full width */
+        height: 100vh; /* Full height of the viewport */
+        object-fit: cover;  /* Maintain aspect ratio and cover */
+    }
+}
+
+/* Large devices (desktops, TVs) */
+@media only screen and (min-width: 992px) {
+    .responsive-image {
+        width: 100%;  /* Full width */
+        height: 100vh; /* Full height of the viewport */
+        object-fit: cover;  /* Maintain aspect ratio and cover */
+    }
+}
+
+.wcu-section {
+    background-color: #fdfeff;
+  }
+
+.wcu-section-heading{
+    color:#e2380d;
+    text-align: center;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    margin-top: 4px;
+}
+
+.wcu-section-description{
+    color:#918880;
+    text-align: center;    
+    font-family: 'Neuropol_x', sans-serif;
+    font-size: 15px;
+    
+}
+
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #918880;
+    border-radius: 16px;
+  }
+
+  .wcu-card-image {
+    width: 100%;
+    height: 190px;
+    border-radius: 8px;
+  }
+
+  .wcu-card-title {
+    color: #e2380d;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 22px;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+  }
+
+.wcu-card-description {
+    color: #918880;
+    font-family: 'Neuropol_x', sans-serif;
+    font-size: 16px;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+.offers {
+    color:#e2380d;
+    font-size: 16px;
+    font-family: 'Neuropolitical', sans-serif;
+    font-weight: 600;
+  }
+
+  .explore-menu-section {
+    background-color: #fdfeff;
+  }
+  .menu-section-heading {
+    color: #e2380d;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 26px;
+    font-weight: 600;    
+    text-align: center;
+  }
+  .menu-item-image {
+    border-radius: 16px;
+    height:300px;
+  }
+  
+  .menu-item-card {
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #918880;
+    
+  }
+
+  .follow-us-section{
+    background-color: #fdfeff;
+  }
+
+  .follow-us-section-heading{
+    color: #e2380d;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 22px;
+    font-weight: 600;    
+    text-align: center;
+  }
+
+  .follow-us-icon-container {
+    background-color: #fdfeff;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #918880;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+  }
+  .icon {
+    color: #e2380d;
+    font-size: 35px;
+  }
+
+  .footer-section {
+    background-color: #fdfeff;
+    
+  }
+
+  .footer-heading{
+    color: #e2380d;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 20px;
+    font-weight: 600;    
+    text-align: center;
+
+  }
+  .footer-section-mail-id {
+    color: #918880;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .footer-section-address {
+    color: #918880;    
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+.diwali-Footer-section {
+    background-color: #fdfeff;
+}
+
+.flybuy-logo {
+  width: 260px;
+  height:60px;
+}
+
+.icon {
+    color: #e2380d;
+    font-size: 22px;
+}
+
+.ecommerce-footer-section-icon-container {
+    background-color: #fdfeff;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 32px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-width: 1.5px;
+    border-color: #918880;
+    border-style: solid;
+}
+
+.ecommerce-footer-section-address {
+    font-size: 16px;
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.ecommerce-footer-section-heading {
+    font-size: 18px;
+    color: #5a7184;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.ecommerce-footer-section-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ecommerce-footer-section-list-item {
+    font-size: 16px;
+    color: #5a7184;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+
+.hr-line {
+    background-color: #959ead;
+}
+
+.ecommerce-footer-section-copyright {
+    color: #918880;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.bg-container {
+  background-color: #fdfeff;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+
+}
+
+.card-container {
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #918880;
+  border-radius: 16px;
+  
+}
+
+.image {
+  height: 40vh;
+  width: 100%;
+}
+
+.errorMessage {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #dc3545;
+}
+
+.form-container {
+  padding: 15px;
+}
+
+.button {
+  margin-left: 80px;
+  background-color: transparent;
+  color: #e2380d;
+  font-weight: 700;
+  font-size: 16px;
+  border-color: #959ead;
+  border-width: 2px;
+}
+
+.nameInput{
+    font-family: 'Neuropol', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color:#e2380d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #959ead;
+    width: 25px;
+    height: 25px;
+    background-size: 100%, 100%;
+}
